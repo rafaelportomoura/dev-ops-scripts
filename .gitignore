@@ -1,2 +1,4 @@
 database/
 scripts_tests
+profile.txt
+.env
