@@ -55,9 +55,10 @@ def writeRepositories(objects, ext='json', db='database/repositories_branch_outp
 # MAIN
 
 
-branchs = ['develop', 'qa', 'homolog', 'master']
+branchs = ['develop', 'qa', 'homolog', 'master',
+           'feature/ic-3911', 'feature/ic-3911-dev', 'feature/ic-3911-qa']
 repositories = readDb()
-tenant = 'core'
+tenant = 'btg-layer'
 output = {}
 text_output = ''
 for repository in repositories:

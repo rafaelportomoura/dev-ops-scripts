@@ -75,8 +75,16 @@ repositories = readDb('database/repositories_branch_outputs.json')
 
 branchs = [
     {
-        'origin': 'homolog',
-        'target': "master"
+        'origin': 'feature/ic-3911-dev',
+        'target': "develop"
+    },
+    {
+        'origin': 'feature/ic-3911-qa',
+        'target': "qa"
+    },
+    {
+        'origin': 'feature/ic-3911',
+        'target': "homolog"
     }
 ]
 

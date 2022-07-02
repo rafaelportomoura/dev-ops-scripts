@@ -89,14 +89,14 @@ def return_message(_target, _origin, _name, _description, _mergeable=0):
 
 
 quero = [
-    'core-actions'
+    'btg-layer-counter'
 ]
 
-card_code = 'ic-3266-1'
+card_code = 'IC-3911'
 
 repositories = readDb('database/conflicts_report.json')
 
-description = 'Up core to branch master'
+description = 'Update counter vpc'
 
 message = ''
 
